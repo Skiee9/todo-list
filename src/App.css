@@ -1,0 +1,67 @@
+.app {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #bbd1ea;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.input-section input {
+  flex: 1;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-section button {
+  background-color: #f0f0f0;
+  border: 2px solid transparent;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: normal;
+  color: #333;
+}
+
+.filter-section button:hover {
+  background-color: #ddd;
+}
+
+.filter-section button.active {
+  font-weight: 700;
+  border-color: #6f94e9;          
+  background-color: #fbfeff;  
+  color: #555555;   
+}
+.todo-item {
+  background-color: white;
+  padding: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.todo-item input[type='checkbox'] {
+  margin-right: 0px;
+}
