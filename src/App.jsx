@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>My To-Do List</h1>
+      <h1>My Todos </h1>
 
       <div className="input-section">
         <input
