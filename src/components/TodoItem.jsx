@@ -22,7 +22,7 @@ function TodoItem({ todo, onDelete, onToggle }) {
         onClick={() => onDelete(todo.id)}
         style={{
           marginLeft: '10px',
-          backgroundColor: '#ff4d4f',
+          backgroundColor: 'blue',
           border: 'none',
           color: 'white',
           padding: '5px 10px',
