@@ -6,7 +6,9 @@
   background-color: #bbd1ea;
   border-radius: 20px;
 }
-
+body{
+  background-color: darkblue;
+}
 h1 {
   text-align: center;
 }
